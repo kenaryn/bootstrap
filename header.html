@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Header element example</title>
+  <style>
+    .logo {
+      background: left / cover url('./wild_beagle.jpg');
+      display: flex;
+      height: 120px;
+      align-items: center;
+      justify-content: center;
+      font: bold calc(1rem + 2 * (100vw - 120px) / 100) 'Lucida Console', monospace;
+      color: #ff0083;
+      text-shadow: #000 2px 2px 0.2rem;
+    }
+
+    header > h1 {
+      margin-bottom: 0;
+    }
+
+    header > time {
+      font: italic 0.7rem sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class="logo" href="#">Wild dogs!</a>
+  </header>
+
+  <article>
+    <header>
+      <h1>Beagles</h1>
+      <time datetime="1402-02-03 15:10">Bahman 3</time>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure voluptate assumenda! Ipsa praesentium voluptate minus tenetur dignissimos voluptatem quis voluptatibus facere, voluptatum maiores ratione veniam. Ipsa accusamus quam hic?</p>
+    </header>
+  </article>
+
+</body>
+
+</html>
